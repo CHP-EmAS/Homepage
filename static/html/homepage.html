@@ -1,0 +1,223 @@
+<html class=" -moz-"><head>
+    <title>Clemens Hübner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    
+    <link rel="stylesheet" href="style/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+    <script src="js/pt.min.js"></script>
+    <script src="js/index.js"></script>
+
+  </head>
+  <body class="">
+    <div class="overflow-wrap">
+      <!-- HOME -->
+      
+      <section id="home" class="flex height-fix">
+        <div id="pt" class="canvas"><canvas id="canvas" width="359" height="695" style="width: 359px; height: 695px;"></canvas></div>
+        <div class="flex">
+          <div class="text">
+            Hello, I'm <span class="highlight">Clemens Hübner</span>.
+            <br>
+            I'm a Computer Science Student.
+          </div>
+
+          <div class="button page-link" dest="about">
+            View my work <i class="mdi mdi-arrow-right"></i>
+          </div>
+
+          <nav class="flex desk">
+            <div class="link-wrap">
+              <div class="page-link active" dest="home">Home</div>
+              <div class="page-link" dest="about">About</div>
+              <div class="page-link" dest="portfolio">Portfolio</div>
+            </div>
+            <i class="mdi mdi-menu"></i>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="container flex">
+          <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">
+            ABOUT
+          </div>
+          <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+
+          <div class="skills-wrapper flex row-gt-sm">
+            <div class="flex flex-50-gt-sm waypoint animated slide-in-left" data-animation="slide-in-left">
+              <img src="img/me.png" class="me">
+              
+              <div class="label bold">Who i am</div>
+              <div>
+                I'm a Computer Science Student. I'm working for
+                <a class="highlight" href="https://new.siemens.com/de/de.html" target="_blank">Siemens</a>
+                in Karlsruhe, Germany.
+                <br>
+                I have a passion for programming video games, apps and much more. I love challenges where I can expand my skills and creativity as a software developer.
+              </div>
+            </div>
+
+            <div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" data-animation="slide-in-right">
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">C++</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">Java</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">HTML</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">JavaScript</div>
+                </div>
+                <span>80%</span>
+              </div>
+			  
+			  <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">TypeScript</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:50%">
+                  <div class="tag bold flex">Go</div>
+                </div>
+                <span>50%</span>
+              </div>
+			  
+			  <div class="bar flex">
+                <div class="bar fill" style="width:50%">
+                  <div class="tag bold flex">C#</div>
+                </div>
+                <span>50%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:65%">
+                  <div class="tag bold flex">Node.js</div>
+                </div>
+                <span>65%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:65%">
+                  <div class="tag bold flex">REST APIs</div>
+                </div>
+                <span>65%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:25%">
+                  <div class="tag bold flex">Unreal Engine</div>
+                </div>
+                <span>10%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:60%">
+                  <div class="tag bold flex">SFML</div>
+                </div>
+                <span>60%</span>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="flex" id="portfolio">
+        <div class="header waypoint animated slide-in-right" data-animation="slide-in-right">
+          PROJECTS
+        </div>
+        <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".3s" style="animation-delay: 0.3s;"></div>
+
+		<div class="filter-wrap waypoint animated fade-in" data-animation="fade-in">
+          <div class="flex row">
+            <div class="filter active" data-filter="all">ALL</div>
+            <div class="filter" data-filter=".game">GAMES</div>
+            <div class="filter" data-filter=".app">APPS</div>
+          </div>
+          <div class="float-bar" style="left: 0px; width: 56px;">
+            <div class="flex row" style="left: 0px;">
+              <div class="filter active" data-filter="all">ALL</div>
+              <div class="filter" data-filter=".game">GAMES</div>
+              <div class="filter" data-filter=".app">APPS</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="gallery" class="container flex row wrap animated">
+          <div class="mix game" data-my-order="1" data-bound="">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">The worst Link Adventure</div>
+                <span class="highlight">Game</span>
+              </div>
+              <div class="button" id="twla">Download</div>
+            </div>
+          </div>
+
+          <div class="mix app" data-my-order="1" data-bound="">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Xitem</div>
+                <span class="highlight">REST WEBSERVICE/APP</span>
+              </div>
+              <div class="button" id="xitem">LEARN MORE</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+		<div class="icon-wrap flex row">
+          <a href="https://github.com/CHP-EmAS">
+            <div class="flex icon" id="icon-2">
+              <i class="mdi iconify" data-icon="mdi-github" data-inline="false"></i>
+            </div>
+          </a>
+		  <a href="https://www.linkedin.com/in/clemens-hübner-461905202">
+            <div class="flex icon" id="icon-3">
+              <i class="mdi mdi-linkedin"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <div class="footnote">
+            Clemens Hübner <span class="highlight">©2021</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+</body></html>

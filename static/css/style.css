@@ -228,7 +228,7 @@ body {
 }
 
 .highlight {
-  color: #1bdce3;
+  color: #ffab00;
 }
 
 .header {
@@ -804,7 +804,7 @@ footer .footnote {
   opacity: 0.6;
 }
 footer .footnote .highlight {
-  color: #e31b6d;
+  color: #ffab00;
   font-family: "Open Sans";
 }
 

@@ -158,6 +158,10 @@ $(function() {
   }, 10);
 
   $('#gallery .button').on('click', function() {
-    console.log(this.id);
+    if(this.id == "twla") {
+      window.location = "files/TWLA-Installer.exe";
+    } else if(this.id == "xitem") {
+      window.location.href = "https://xitem.de";
+    }
   });
 });

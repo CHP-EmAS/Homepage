@@ -156,4 +156,8 @@ $(function() {
   setTimeout(function() {
     onScrollInit($('.waypoint'));
   }, 10);
+
+  $('#gallery .button').on('click', function() {
+    console.log(this.id);
+  });
 });

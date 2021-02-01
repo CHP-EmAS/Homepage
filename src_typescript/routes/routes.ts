@@ -14,7 +14,7 @@ routes.get("/", function(req, res) {
 });
 
 routes.use("*", function(request: Request, response: Response) {
-    response.status(404).json();
+    response.status(404).sendFile(path.join(__dirname + '/../../static/html/404.html'));
 });
 
 export default routes;

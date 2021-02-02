@@ -126,7 +126,7 @@ $(function() {
 
   // SCROLL ANIMATIONS
   function onScrollInit(items, elemTrigger) {
-    var offset = $(window).height() / 1.6;
+    var offset = $(window).height() / 1.2;
     items.each(function() {
       var elem = $(this),
         animationClass = elem.attr('data-animation'),

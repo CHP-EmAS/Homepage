@@ -599,7 +599,10 @@ section:nth-of-type(2) .bar:nth-child(9) .fill {
   transition: 1.9s 0.2s width ease-in-out;
 }
 section:nth-of-type(2) .bar:nth-child(10) .fill {
-  transition: 2s 0.2s width ease-in-out;
+  transition: 2.0s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(11) .fill {
+  transition: 2.1s 0.2s width ease-in-out;
 }
 section:nth-of-type(2) .bar span {
   display: none;

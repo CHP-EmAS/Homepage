@@ -725,6 +725,15 @@ section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
   background: url("../img/xitem.png") center center/cover;
 }
+section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
+  background: url("../img/maphynn.jpeg") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
+  background: url("../img/imposm.png") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
+  background: url("../img/tictactoe.jpg") center center/cover;
+}
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
   max-width: 100%;

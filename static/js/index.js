@@ -126,7 +126,7 @@ $(function() {
 
   // SCROLL ANIMATIONS
   function onScrollInit(items, elemTrigger) {
-    var offset = $(window).height() / 1.6;
+    var offset = $(window).height() / 2;
     items.each(function() {
       var elem = $(this),
         animationClass = elem.attr('data-animation'),
@@ -162,6 +162,10 @@ $(function() {
       window.location = "files/TWLA-Installer.exe";
     } else if(this.id == "xitem") {
       window.location.href = "https://xitem.de";
+    } else if(this.id == "maphynn") {
+      window.location.href = "https://gitlab.maphynn.de/maphynn";
+    }else if(this.id == "imposm") {
+      window.location.href = "https://github.com/CHP-EmAS/Imposm-Optmizer";
     }
   });
 });

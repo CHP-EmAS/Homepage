@@ -161,11 +161,11 @@ $(function() {
     if(this.id == "twla") {
       window.location = "files/TWLA-Installer.exe";
     } else if(this.id == "xitem") {
-      window.location.href = "https://xitem.de";
+      window.open('https://xitem.de','_blank');
     } else if(this.id == "maphynn") {
-      window.location.href = "https://gitlab.maphynn.de/maphynn";
+      window.open('https://gitlab.maphynn.de/maphynn','_blank');
     }else if(this.id == "imposm") {
-      window.location.href = "https://github.com/CHP-EmAS/Imposm-Optmizer";
+      window.open('https://github.com/CHP-EmAS/Imposm-Optmizer','_blank');
     }
   });
 });

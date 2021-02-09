@@ -10,8 +10,15 @@ class StatisticHandler {
     public static initStatistics() {
         console.log("Loading Statistics...");
 
-        const file = readFileSync("./statistics.txt", "utf8");
-        
+        let file: string;
+
+        try {
+            file = readFileSync("./statistics.txt", "utf8");
+        } catch {
+            console.log("Error while reading statistics.txt!");
+            return;
+        }
+
         const statistics = JSON.parse(file);
 
         if(statistics.hp_visits)

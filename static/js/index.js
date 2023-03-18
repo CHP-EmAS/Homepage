@@ -166,6 +166,8 @@ $(function() {
       window.open('https://gitlab.maphynn.de/maphynn','_blank');
     }else if(this.id == "imposm") {
       window.open('https://github.com/CHP-EmAS/Imposm-Optmizer','_blank');
+    }else if(this.id == "lapin") {
+      window.open('https://emas-dev.itch.io/lapin','_blank');
     }
   });
 });

@@ -168,6 +168,8 @@ $(function() {
       window.open('https://github.com/CHP-EmAS/Imposm-Optmizer','_blank');
     }else if(this.id == "lapin") {
       window.open('https://emas-dev.itch.io/lapin','_blank');
+    }else if(this.id == "amazing_monk") {
+      window.open('https://www.newgrounds.com/portal/view/887167','_blank');
     }
   });
 });

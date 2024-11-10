@@ -19,6 +19,10 @@ routes.get("/files/TWLA-Installer.exe", function(req, res) {
     res.sendFile(path.join(__dirname + '/../../static/files/TWLA-Installer.exe'));
 });
 
+routes.get("/files/Oceania.pdf", function(req, res) {
+    res.sendFile(path.join(__dirname + '/../../static/files/Oceania.pdf'));
+});
+
 routes.use("*", function(request: Request, response: Response) {
     StatisticHandler.add404Visit();
     response.status(404).sendFile(path.join(__dirname + '/../../static/html/404.html'));

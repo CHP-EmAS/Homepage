@@ -172,6 +172,8 @@ $(function() {
       window.open('https://www.newgrounds.com/portal/view/887167','_blank');
     }else if(this.id == "oceania") {
       window.open('files/Oceania.pdf','_blank');
+    }else if(this.id == "betrail") {
+      window.open('https://relieable.itch.io/betrail','_blank');
     }
   });
 });

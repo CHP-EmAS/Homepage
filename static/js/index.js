@@ -175,7 +175,9 @@ $(function() {
     }else if(this.id == "betrail") {
       window.open('https://relieable.itch.io/betrail','_blank');
     }else if(this.id == "unbreachable") {
-      window.open('https://impress.games/press-kit/buckfish/unbreachable','_blank');
+      window.open('https://store.steampowered.com/app/4010650/Unbreachable/','_blank');
+    }else if(this.id == "birdgame3") {
+      window.open('https://store.steampowered.com/app/4218680/Bird_Game_3/','_blank');
     }
   });
 });
